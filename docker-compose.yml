@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+
+  docker-react-eag:
+    container_name: docker-react-eag
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - '/app/node_modlues'
+    ports:
+      - "8001:8000"
