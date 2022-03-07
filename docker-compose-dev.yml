@@ -18,5 +18,5 @@ services:
     image: docker-react-eag_docker-react-dev
     volumes:
       - .:/app
-      - '/app/node_modlues'
+      - '/app/node_modules'
     command: ["npm", "run", "test"]

@@ -9,6 +9,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/app
-      - '/app/node_modlues'
+      - '/app/node_modules'
     ports:
       - "8001:8000"
